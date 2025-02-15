@@ -15,7 +15,7 @@
 
 * {
     margin: 0; padding: 0; box-sizing: border-box; 
-    font-size: 0.8px;
+    font-size: 0.8em;
 }
         .carousel-container {
             width: 300px;
