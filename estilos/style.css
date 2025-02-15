@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 :root {
     ---cor01: #202124;
     ---cor02: #28292a;
@@ -12,7 +14,10 @@
 
 
 * {
-    margin: 0; padding: 0; box-sizing: border-box; }
+    margin: 0; padding: 0; box-sizing: border-box; 
+    font-size: 1.1em;
+    
+}
         .carousel-container {
             width: 300px;
             overflow: hidden;
@@ -43,18 +48,3 @@ body {
     100% { transform: translateX(0); }
 }
 
-header {
-    background-color: #202124;
-    color: white;
-    background-position: center;
-}
-
-main {
-    padding: 50px;
-
-}
-
-footer {
-    padding: 50px;
-
-}

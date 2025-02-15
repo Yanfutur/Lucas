@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+header {
+    background-color: #202124;
+    color: white;
+
+    
+    
+    text-align: left;
+    font-style: italic;
+    }
+    .div1 {
+        padding: 30px;
+
+    }
+
+a {
+    padding-left: 30px;
+    text-decoration: none;
+    color: white;
+
+}
+
+main {
+    padding: 50px;
+
+}
+
+main > div {
+    padding: 30px;
+}
+
+main > div > p {
+    padding: 15px;
+}
+
+footer {
+    padding: 50px;
+
+}
