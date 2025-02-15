@@ -1,0 +1,60 @@
+:root {
+    ---cor01: #202124;
+    ---cor02: #28292a;
+    ---cor3: #;
+    ---cor4: #;
+    ---cor5: #;
+    ---cor6: #;
+    
+
+    ---font1:  "Poppins";
+}
+
+
+* {
+    margin: 0; padding: 0; box-sizing: border-box; }
+        .carousel-container {
+            width: 300px;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            position: relative;
+}
+
+body {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.carousel {
+    display: flex;
+    width: 900px;
+    animation: slide 6s infinite;
+}
+.carousel img {
+    width: 700px;
+    height: 450px;
+    object-fit: cover;
+}
+@keyframes slide {
+    0% { transform: translateX(0); }
+    33% { transform: translateX(-300px); }
+    66% { transform: translateX(-600px); }
+    100% { transform: translateX(0); }
+}
+
+header {
+    background-color: #202124;
+    color: white;
+    background-position: center;
+}
+
+main {
+    padding: 50px;
+
+}
+
+footer {
+    padding: 50px;
+
+}
