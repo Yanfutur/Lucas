@@ -22,15 +22,22 @@ a {
 }
 
 main {
-    
+    color: white;
 }
 
 main > div {
     padding: 30px;
 }
 
-main > div > p {
+main > div > div.p {
     padding: 15px;
+    }
+
+main > div > p.fala {
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.096);
+    border: 1px solid white;
+    border-radius: 20px;
 }
 
 footer {
